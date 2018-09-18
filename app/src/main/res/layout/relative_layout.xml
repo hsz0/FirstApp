@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="按钮一" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/btn_one"
+        android:text="按钮二" />
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_one"
+        android:text="按钮三" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn_three"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimary"
+            android:text="文本一"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimary"
+            android:text="文本二"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimary"
+            android:text="文本三"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimary"
+            android:text="文本四"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</RelativeLayout>

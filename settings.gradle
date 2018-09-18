@@ -1,0 +1,1 @@
+include ':app', ':activitylifecycle', ':fragments', ':savedata', ':intent', ':BroadcastReceiver', ':service', ':handler', ':common_widget'
